@@ -13,3 +13,74 @@ světle šedá: #f0f0f0
 */
 
 /* --- pod tuto čáru piš svoje CSS --- */
+
+.sekcekadernice {
+    background-color: #f0f0f0;
+    padding-top: 30px;
+}
+.kadernice h2 {
+    text-align: center;
+    }
+.nasekadernice {
+	display: flex;
+	flex-wrap: wrap;
+	}
+.helena,
+.eliska,
+.jarmila {
+	flex-basis: 32%;
+	margin: 5px;
+	flex-shrink: 1;
+    }	
+
+.foto {
+	border-radius: 50%;
+    margin: 25px;
+}
+
+.popis {
+	position: static;
+    text-align: center;
+	top: 20px;
+	overflow: auto;
+}
+.popis h3 {
+    font-style: italic;
+    color: #c5308a;
+}
+
+.reklionas {
+    background-color: #f0f0f0;
+    padding-top: 30px;
+}
+.reklionas h2 {
+    text-align: center;
+    font-style: italic;
+    padding-bottom: 30px;
+}
+
+/* .reference {
+    display: flex;
+    flex-wrap: wrap;
+}
+.lucie,
+.klotilda {
+	flex-basis: 48%;
+	margin: 5px;
+	flex-shrink: 1;
+	
+}
+.jana,
+.libor {
+	flex-basis: 48%;
+	margin: 5px;
+	flex-shrink: 1;
+}
+img .reference {
+    float: left;
+}
+*/
+
+.kontakt {
+    background-color: #f0f0f0;
+}
